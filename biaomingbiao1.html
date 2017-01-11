@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" href="css/stylePhone.css" />
+		<style>
+		.bdStyle{
+			background: url(images/zan_wx.png)
+	            no-repeat bottom right #FFFFFF;
+	        background-size:186px 188px;
+			background-position: right 10px bottom 0px;
+		}
+		</style>
+	</head>
+
+	<body class="bdStyle">
+		<div id="navigation" class="contact-head">
+			<h2>【报名表】轻出国国际管培生全国招募计划</h2>
+		</div>
+		<div id="title">
+			<div id="titleLeft">
+				<label class="title">毕业我们去坡上</label>
+				<label class="subTitle">working in singapore</label>
+			</div>
+			<div id="titleRight">
+				<img src="images/plane_wx.png" style="max-height: 62px; max-width: 167px;">
+			</div>
+		</div>
+		<div id="content">
+			<div id="contentLeft">
+				<form>
+					<div class="divCell">
+						<label>名号*</label>
+						<input type="text" name="First Name" required="" class="normalInput">
+					</div>
+					<div class="divCell">
+						<div style="display: inline; float: left;margin-right: 20px;">
+							<label>年龄*</label>
+							<input type="text" name="First Name" required="" class="normalInput" style="width: 66px;">
+						</div>
+						<div style="display: inline; float: left;">
+							<label>性别*</label>
+							<ul style="padding-left: 0px;">
+								<li style="margin-right: 12px;"><input type="radio" name="radio-btn" />汉纸</li>
+								<li><input type="radio" name="radio-btn" />妹纸</li>
+							</ul>
+						</div>
+					</div>
+					<div class="divCell">
+						<div style="display: inline;float: left;margin-top: 13px;margin-bottom: 13px;">
+							<label>手机*</label>
+							<input type="text" name="First Name" required="" class="normalInput">
+						</div>
+					</div>
+					<div class="divCell">
+						<label>QQ/微信*</label>
+						<input type="text" name="First Name" required="" class="normalInput">
+					</div>
+					<div class="divCell">
+						<label>学校*</label>
+						<input type="text" name="First Name" required="" class="normalInput">
+					</div>
+					<div class="divCell">
+						<div style="display: inline; float: left;margin-right: 55px;">
+							<label>专业*</label>
+							<input type="text" name="First Name" required="" class="normalInput" style="width: 66px;">
+						</div>
+						<div style="display: inline; float: left;">
+							<label>年级*</label>
+							<input type="text" name="First Name" required="" class="normalInput" style="width: 66px;">
+						</div>
+					</div>
+					<div class="divCell">
+						<div style="display: inline;float: left;margin-top: 22px;">
+							<label>*&nbsp;此为必填项目</label>
+						</div>
+					</div>
+					<div class="divCell" style="margin-bottom: 20px;">
+						<button type="submit">提&nbsp;&nbsp;交</button>
+					</div>
+				</form>
+			</div>
+			<div id="contentRight">
+				<div id="QRcode">
+					<img src="images/QRcode_wx.png" style="max-height: 100px; max-width: 100px;">
+				</div>
+				<div id="pen">
+					<img src="images/pen_wx.png" style="max-height: 72px; max-width: 81px;">
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<label>全国统一客服热线：4000606918</label>
+			<label>全国统一QQ客服：4000606918 </label>
+			<label>轻出国官方微博：北京轻出国</label>
+		</div>
+		<!--<div style="position:absolute;right:10px;bottom:0px; z-index: 1000px ;">
+			<img src="images/zan_wx.png" style="max-height: 186px; max-width: 188px;">
+		</div>-->
+	</body>
+	<script type="text/javascript">
+		window.onload = function() {
+			focusInput('focusInput', 'normalInput');
+		}
+
+		function focusInput(focusClass, normalClass) {
+			var elements = document.getElementsByTagName("input");
+			for(var i = 0; i < elements.length; i++) {
+				if(elements[i].type != "button" && elements[i].type != "submit" && elements[i].type != "reset") {
+					elements[i].onfocus = function() {
+						this.className = focusClass;
+					};
+					elements[i].onblur = function() {
+						this.className = normalClass || '';
+					};
+				}
+			}
+		}
+	</script>
+
+</html>

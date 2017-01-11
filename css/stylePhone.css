@@ -1,0 +1,161 @@
+.contact-head {
+	margin-top: 30px;
+}
+
+.contact-head h2 {
+	font-size: 18px;
+	color: #009194;
+	font-family: "微软雅黑";
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 15px;
+	color: #464646;
+	font-family: "微软雅黑";
+}
+
+.subTitle {
+	font-size: 10px;
+	color: #919191;
+}
+
+label {
+	display: block;
+	font-size: 10px;
+	color: #666666;
+	font-family: "arial rounded mt bold";
+	margin-bottom: 5px;
+	margin-left: 2px;
+}
+
+#title {
+	display: inline;
+	margin-top: 20px;
+	float: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 98%;
+}
+
+#titleLeft {
+	display: inline;
+	float: left;
+	margin-top: 10px;
+}
+
+#titleRight {
+	display: inline;
+	float: right;
+	margin-right: 30px;
+}
+
+#content {
+	display: inline;
+	float: left;
+	margin: 0 auto;
+	margin-top: 22px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 98%;
+}
+
+#contentLeft {
+	display: inline;
+	float: left;
+	/*width: 60%;*/
+}
+#contentRight{
+	display: inline;
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 190px;
+}
+#footer{
+	display: inline;
+	float: left;
+	margin: 0 auto;
+	margin-top: 45px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 98%;
+	padding: 0;
+}
+#footer label{
+	color: #999999;
+	padding: 0;
+	margin: 0;
+}
+#QRcode{
+	margin-top: 20px;
+}
+#pen{
+	margin-top: 70px;
+}
+ol,
+ul {
+	list-style: none;
+	font-size: 12px;
+	color: #666666;
+	font-family: "arial rounded mt bold";
+}
+
+li {
+	float: left;
+}
+
+input[type='text'] {
+	width: 187px;
+	height: 27px;
+	border-radius: 5px;
+}
+button {
+	width: 66px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 10px;
+	border: none;
+	padding: 4px;
+	/* -- CSS3 Transition - define which property to animate (i.e. the shadow)  -- */
+	-webkit-transition: -webkit-box-shadow 0.3s linear;
+	/* -- CSS3 - Rounded Corners -- */
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #007A7D url(images/bg_btn.png) repeat-x top left;
+	font-family: "MyriadProSemibold";
+	font-weight: normal;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+button:hover {
+	-webkit-box-shadow: 0px 0px 10px #c3e0e0;
+	-moz-box-shadow: 0px 0px 10px #c3e0e0;
+	box-shadow: 0px 0px 10px #c3e0e0;
+	cursor: pointer;
+}
+.normalInput {
+	border: 1px solid #E2E2E2;
+}
+
+.focusInput {
+	border: 1px solid #007A7D;
+	-webkit-box-shadow: 0px 0px 5px #60a9a9;
+	-moz-box-shadow: 0px 0px 5px #60a9a9;
+	box-shadow: 0px 0px 5px #60a9a9;
+}
+
+.divCell {
+	margin-top: 13px;
+	display: block;
+	clear: left;
+}
+
+div.Hcenter {
+	text-align: center;
+}
